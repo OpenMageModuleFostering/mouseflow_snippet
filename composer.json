@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/mouseflow_snippet",
+    "type": "magento-module",
+    "license": "OSL",
+    "homepage": "",
+    "description": "Mouseflow extension for Magento",
+    "authors": [
+    {
+        "name": "Oleksiy Pavlikovsky",
+        "email": "ciphuk@mail.ru"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

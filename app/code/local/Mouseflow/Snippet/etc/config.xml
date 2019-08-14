@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Mouseflow_Snippet>
+            <version>0.1.0</version>
+        </Mouseflow_Snippet>
+    </modules>
+    <global>
+        <helpers>
+            <mouseflow_snippet>
+                <class>Mouseflow_Snippet_Helper</class>
+            </mouseflow_snippet>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <mouseflow_snippet>
+                    <file>mouseflow/snippet.xml</file>
+                </mouseflow_snippet>
+            </updates>
+        </layout>
+    </frontend>
+    <default>
+        <mouseflow_snippet>
+            <general>
+                <enabled>1</enabled>
+                <tracking_code>mouseflow_default_tracking_code</tracking_code>
+            </general>
+        </mouseflow_snippet>
+    </default>
+</config>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>mouseflow_snippet</name>
+    <version>1.1.0</version>
+    <stability>beta</stability>
+    <license>OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Mouseflow extension for Magento</summary>
+    <description>Mouseflow extension for Magento</description>
+    <notes>Init note</notes>
+    <authors><author><name>Oleksiy Pavlikovsky</name><user>CipHuK</user><email>ciphuk@mail.ru</email></author></authors>
+    <date>2015-02-25</date>
+    <time>08:42:39</time>
+    <contents><target name="magelocal"><dir name="Mouseflow"><dir name="Snippet"><dir name="Helper"><file name="Data.php" hash="8f3a1b11c346cbe39f51e6598b232dfc"/></dir><dir name="etc"><file name="adminhtml.xml" hash="c646ce530cf7e158c5aa671b69b1209e"/><file name="config.xml" hash="b04c665655c67c3bb11d35a2da4d99cf"/><file name="system.xml" hash="63b3cdfbc9314b80709f20d7c4104225"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="mouseflow"><file name="snippet.xml" hash="6ebffc13cde94d6a27ac55a5e8bd76d1"/></dir></dir><dir name="template"><dir name="mouseflow"><dir name="snippet"><file name="snippet.phtml" hash="ad76b10232ada2c3e6bbb9beda753859"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Mouseflow_Snippet.xml" hash="3da74334c13b8af013e001fe6680cfc1"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
